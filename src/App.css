@@ -81,15 +81,17 @@ button {
   width: 300px;
   border-radius: 15px;
   overflow: hidden;
-  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   font-family: sans-serif;
   transition: transform 0.3s ease;
   background: white;
 }
 
 .card-img {
-  width: 100%;
+  margin: 1em;
+  width: 70%;
   height: 180px;
+  border-radius: 10px;
   object-fit: cover; /* Ensures image isn't distorted */
 }
 

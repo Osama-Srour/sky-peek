@@ -7,8 +7,7 @@ const useWeather = () => {
         cityName: '',
         temp: 0,
         status: '',
-        humidity: '',
-        wind: '',
+
         isfetch: false,
     })
 
@@ -24,7 +23,6 @@ const useWeather = () => {
                 cityName: data.nearest_area[0].country[0].value,
                 temp: data.current_condition[0].temp_C, 
                 status: data.current_condition[0].weatherDesc[0].value, 
-                humidity: data.current_condition[0].humidity,
             })
 
 
